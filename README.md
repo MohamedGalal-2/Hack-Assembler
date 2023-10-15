@@ -30,8 +30,10 @@ Run the assembler: ./assembler yourfile.asm
 After executing the assembler command with your assembly file, a new binary code file (yourfile.hack) will be generated in the same folder.
 
 ### Functions
-1.     void removeComments(FILE*, FILE*);
+<pre>
+1. void removeComments(FILE*, FILE*);
 Removes single lined comments from a file.
+</pre>
 
 ### Supported Instructions
 The Hack Assembler supports the following types of instructions:
