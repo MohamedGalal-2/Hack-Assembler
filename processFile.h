@@ -42,6 +42,11 @@ void removeEmptyLines(FILE* srcFile, FILE* tempFile);
   */
 void processFiles(char* path);
 
+/**
+  * @brief  Gets the file name from the path.
+  * @param  path: Pointer to path.
+  * @return file name.
+  */
 char* getFileName(char* path);
 
 #endif // _PROCESSFILE_H_ 

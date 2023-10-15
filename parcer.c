@@ -32,6 +32,11 @@ char* dectoBinary(int decimal)
 	return binary;
 }
 
+/**
+  * @brief Parses the file and creates a temp file with the binary values
+  * @param newPath - the path of the file to parse
+  * @note  The function creates a temp file with the binary values
+  */
 void parse(char* newPath)
 {
 	FILE* srcFile;

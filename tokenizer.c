@@ -1,5 +1,11 @@
 #include "Assembler.h"
 
+/**
+  * @brief Converts the dest part of the line to machine code
+  * @param dest - the dest part of the line
+  * @return the machine code of the dest part
+  * @note The function returns a string of 3 bits
+  */
 char* destConvert(int dest)
 {
 	char destString[4];
@@ -39,6 +45,12 @@ char* destConvert(int dest)
 	return destString;
 }
 
+/**
+  * @brief Converts the comp part of the line to machine code
+  * @param comp - the comp part of the line
+  * @return the machine code of the comp part
+  * @note The function returns a string of 7 bits
+  */
 char* compConvert(char* comp)
 {
 	char binaryComp[8];
@@ -184,6 +196,12 @@ char* compConvert(char* comp)
 	return binaryComp;
 }
 
+/**
+  * @brief Converts the jump part of the line to machine code
+  * @param jump - the jump part of the line
+  * @return the machine code of the jump part
+  * @note The function returns a string of 3 bits
+  */
 char* jumpConvert(char* jump)
 {
 	char jumpBinary[4];

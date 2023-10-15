@@ -15,9 +15,10 @@ int main()
 	newPath = (char*)calloc(100, sizeof(char));
 	newPath = getFileName(path);
 
+	// Convert to binary
 	parse(newPath);
 
-	
+
 	return 0;
 }
 
