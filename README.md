@@ -33,8 +33,14 @@ After executing the assembler command with your assembly file, a new binary code
 1.     void removeComments(FILE*, FILE*)
 * Removes single lined comments from a file.
   
-2.     removeEmptyLines
+2.     void removeEmptyLines(FILE*, FILE*)
 * Removes empty lines from a file.
+
+3.     char* getFileName(char*)
+* Gets the file name from the path.
+
+4.     char* dectoBinary(int)
+* Converts decimal value to binary value
 
 
 ### Supported Instructions
