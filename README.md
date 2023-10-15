@@ -38,10 +38,11 @@ D=D+A
 M=D
 </pre>
 After running the assembler, a file named addition.hack will be generated with the following binary code:
-
+<pre>
 0000000000000010
 1110110000010000
 0000000000000011
 1110000010010000
 0000000000000010
 1110001100001000
+</pre>
