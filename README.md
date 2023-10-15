@@ -30,17 +30,21 @@ Run the assembler: ./assembler yourfile.asm
 After executing the assembler command with your assembly file, a new binary code file (yourfile.hack) will be generated in the same folder.
 
 ### Functions
-1.     void removeComments(FILE*, FILE*)
-* Removes single lined comments from a file.
+1. Removes single lined comments from a file.
+
+        void removeComments(FILE*, FILE*)
   
-2.     void removeEmptyLines(FILE*, FILE*)
-* Removes empty lines from a file.
+2. Removes empty lines from a file.
 
-3.     char* getFileName(char*)
-* Gets the file name from the path.
+        void removeEmptyLines(FILE*, FILE*)
 
-4.     char* dectoBinary(int)
-* Converts decimal value to binary value
+3. Gets the file name from the path.
+
+        char* getFileName(char*)
+
+4. Converts decimal value to binary value
+ 
+        char* dectoBinary(int)
 
 
 ### Supported Instructions
