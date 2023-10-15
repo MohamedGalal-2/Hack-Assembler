@@ -6,6 +6,7 @@ This is a simple Hack assembler written in C language. The assembler converts Ha
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Functions](#Functions)
 - [Supported Instructions](#Supported-Instructions)
 - [Examples](#Examples)
 - [Contributing](#Contributing)
