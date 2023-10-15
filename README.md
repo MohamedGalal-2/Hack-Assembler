@@ -28,8 +28,8 @@ After executing the assembler command with your assembly file, a new binary code
 ### Examples
 Let's see an example of using the assembler. Suppose you have an assembly file named addition.asm with the following code:
 
-// This program adds two numbers together and stores the result in R2
 <pre>
+// This program adds two numbers together and stores the result in R2
 @2
 D=A
 @3
@@ -46,3 +46,9 @@ After running the assembler, a file named addition.hack will be generated with t
 0000000000000010
 1110001100001000
 </pre>
+
+### Contributing
+Contributions to this library are always welcome! If you have any suggestions, bug fixes, or additional functions to add, please feel free to create a pull request.
+
+### License
+This project contains my own implementation for the hack Assembler in C. Feel free to use for any purpose.
