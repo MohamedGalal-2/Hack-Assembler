@@ -12,7 +12,7 @@ This is a simple Hack assembler written in C language. The assembler converts Ha
 - [License](#License)
 
 ### Installation
-To use this library in your project, you can clone this repository or download the necessary files.
+To use any function from this code in your projects, you can clone this repository or download the necessary files.
 
     git clone https://github.com/MohamedGalal-2/Hack-Assembler.git
     
