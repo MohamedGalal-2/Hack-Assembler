@@ -6,6 +6,7 @@ This is a simple Hack assembler written in C language. The assembler converts Ha
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Supported Instructions](#Supported-Instructions)
 - [Examples](#Examples)
 - [Contributing](#Contributing)
 - [License](#License)
@@ -26,6 +27,13 @@ Navigate to the repository folder: cd hack-assembler
 Compile the source code: gcc -o assembler assembler.c
 Run the assembler: ./assembler yourfile.asm
 After executing the assembler command with your assembly file, a new binary code file (yourfile.hack) will be generated in the same folder.
+
+### Supported Instructions
+The Hack Assembler supports the following types of instructions:
+
+* A-instructions: Instructions that refer to memory addresses (e.g., @123).
+* C-instructions: Instructions that perform computations and control flow (e.g., D=M;JNE).
+The assembler ignores whitespace and comments in the assembly code.
 
 ### Examples
 Let's see an example of using the assembler. Suppose you have an assembly file named addition.asm with the following code:
