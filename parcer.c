@@ -59,7 +59,7 @@ void parse(char* newPath)
 	/* Move src file pointer to beginning */
 	rewind(srcFile);
 
-	char decimal[17];  // Decimal value of the address string
+	char decimal[17] = { 00000000000000000 };  // Decimal value of the address string
 	int dec = 0;       // Decimal value of the address integer
 	char buffer[17];   // Binary value of the address
 
@@ -67,7 +67,7 @@ void parse(char* newPath)
 	char headC[4];
 	strcpy(headC, "111");
 	// Destination part of the C instruction
-	char dest[4];
+	char dest[4] = { 0000 };
 	dest[3] = '\0';
 	int destVal = 0;
 	int isDest = 0;

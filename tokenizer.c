@@ -53,7 +53,7 @@ char* destConvert(int dest)
   */
 char* compConvert(char* comp)
 {
-	char binaryComp[8];
+	char binaryComp[8] = { 00000000 };
 	binaryComp[7] = '\0';
 
 	if (comp[0] == '0')
@@ -204,7 +204,7 @@ char* compConvert(char* comp)
   */
 char* jumpConvert(char* jump)
 {
-	char jumpBinary[4];
+	char jumpBinary[4] = { 0000 };
 	jumpBinary[3] = '\0';
 	strcpy(jumpBinary, "000"); // Null
 

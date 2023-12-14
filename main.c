@@ -1,3 +1,10 @@
+/****************************************************
+ *		@author  - Mohamed Ahmed Galal				*
+ *		@program - Hack Assembler					*
+ *		@version - V1.2.0							*
+ *		@updated - 15/10/2023						*
+ ****************************************************/
+
 #include "Assembler.h"
 
 int main()
