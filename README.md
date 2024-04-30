@@ -82,4 +82,4 @@ After running the assembler, a file named addition.hack will be generated with t
 Contributions to this library are always welcome! If you have any suggestions, bug fixes, or additional functions to add, please feel free to create a pull request.
 
 ### License
-This project contains my own implementation for the hack Assembler in C. Feel free to use for any purpose.
+This repository is licensed under the MIT License. Please see the LICENSE file for more information.
